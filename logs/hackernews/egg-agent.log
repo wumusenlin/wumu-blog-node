@@ -1,0 +1,10 @@
+2022-11-07 16:04:41,338 INFO 12984 [egg:logger] init all loggers with options: {"dir":"D:\\eggjs-something\\hackernews\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-11-07 16:04:41,346 INFO 12984 [egg:core] dump config after load, 4ms
+2022-11-07 16:04:41,502 INFO 12984 [egg-watcher] Start watching: ["D:\\eggjs-something\\hackernews\\app","D:\\eggjs-something\\hackernews\\config","D:\\eggjs-something\\hackernews\\mocks","D:\\eggjs-something\\hackernews\\mocks_proxy","D:\\eggjs-something\\hackernews\\app.js"]
+2022-11-07 16:04:41,502 INFO 12984 [egg-watcher] Start watching: "D:\\eggjs-something\\hackernews\\app"
+2022-11-07 16:04:41,503 INFO 12984 [egg-watcher] Start watching: "D:\\eggjs-something\\hackernews\\config"
+2022-11-07 16:04:41,503 INFO 12984 [egg-watcher] Start watching: "D:\\eggjs-something\\hackernews\\mocks"
+2022-11-07 16:04:41,503 INFO 12984 [egg-watcher] Start watching: "D:\\eggjs-something\\hackernews\\mocks_proxy"
+2022-11-07 16:04:41,503 INFO 12984 [egg-watcher] Start watching: "D:\\eggjs-something\\hackernews\\app.js"
+2022-11-07 16:04:41,504 INFO 12984 [egg-watcher:agent] watcher start success
+2022-11-07 16:04:41,513 INFO 12984 [egg:core] dump config after ready, 6ms

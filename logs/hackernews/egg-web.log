@@ -1,0 +1,183 @@
+2022-11-07 16:04:43,261 INFO 13480 [egg:logger] init all loggers with options: {"dir":"D:\\eggjs-something\\hackernews\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-11-07 16:04:43,290 INFO 13480 [egg-multipart] stream mode enable
+2022-11-07 16:04:43,649 INFO 13480 [egg-static] starting static serve /public/ -> D:\eggjs-something\hackernews\app\public
+2022-11-07 16:04:43,652 INFO 13480 [egg-security] use csrf middleware
+2022-11-07 16:04:43,654 INFO 13480 [egg-security] use methodnoallow middleware
+2022-11-07 16:04:43,655 INFO 13480 [egg-security] use noopen middleware
+2022-11-07 16:04:43,656 INFO 13480 [egg-security] use nosniff middleware
+2022-11-07 16:04:43,656 INFO 13480 [egg-security] use xssProtection middleware
+2022-11-07 16:04:43,657 INFO 13480 [egg-security] use xframe middleware
+2022-11-07 16:04:43,658 INFO 13480 [egg-security] use dta middleware
+2022-11-07 16:04:43,658 INFO 13480 [egg-security] compose 7 middlewares into one security middleware
+2022-11-07 16:04:43,668 INFO 13480 [egg:core] dump config after load, 5ms
+2022-11-07 16:04:43,683 INFO 13480 [egg-watcher:application] watcher start success
+2022-11-07 16:04:43,691 INFO 13480 [egg:core] dump config after ready, 6ms
+2022-11-07 16:10:46,216 INFO 4828 [egg:logger] init all loggers with options: {"dir":"D:\\senlinDemo\\hackernews\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-11-07 16:10:46,252 INFO 4828 [egg-multipart] stream mode enable
+2022-11-07 16:10:47,233 INFO 4828 [egg-static] starting static serve /public/ -> D:\senlinDemo\hackernews\app\public
+2022-11-07 16:10:47,255 INFO 4828 [egg-security] use csrf middleware
+2022-11-07 16:10:47,268 INFO 4828 [egg-security] use methodnoallow middleware
+2022-11-07 16:10:47,278 INFO 4828 [egg-security] use noopen middleware
+2022-11-07 16:10:47,291 INFO 4828 [egg-security] use nosniff middleware
+2022-11-07 16:10:47,301 INFO 4828 [egg-security] use xssProtection middleware
+2022-11-07 16:10:47,314 INFO 4828 [egg-security] use xframe middleware
+2022-11-07 16:10:47,326 INFO 4828 [egg-security] use dta middleware
+2022-11-07 16:10:47,326 INFO 4828 [egg-security] compose 7 middlewares into one security middleware
+2022-11-07 16:10:47,364 INFO 4828 [egg:core] dump config after load, 9ms
+2022-11-07 16:10:47,390 INFO 4828 [egg-watcher:application] watcher start success
+2022-11-07 16:10:47,404 INFO 4828 [egg:core] dump config after ready, 11ms
+2022-11-07 16:11:07,684 INFO 4828 [egg-view-nunjucks] loading templates from ["D:\\senlinDemo\\hackernews\\app\\view"]
+2022-11-07 16:15:42,957 INFO 4868 [egg:logger] init all loggers with options: {"dir":"D:\\senlinDemo\\hackernews\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-11-07 16:15:42,994 INFO 4868 [egg-multipart] stream mode enable
+2022-11-07 16:15:43,150 INFO 4868 [egg-static] starting static serve /public/ -> D:\senlinDemo\hackernews\app\public
+2022-11-07 16:15:43,154 INFO 4868 [egg-security] use csrf middleware
+2022-11-07 16:15:43,155 INFO 4868 [egg-security] use methodnoallow middleware
+2022-11-07 16:15:43,156 INFO 4868 [egg-security] use noopen middleware
+2022-11-07 16:15:43,157 INFO 4868 [egg-security] use nosniff middleware
+2022-11-07 16:15:43,158 INFO 4868 [egg-security] use xssProtection middleware
+2022-11-07 16:15:43,159 INFO 4868 [egg-security] use xframe middleware
+2022-11-07 16:15:43,160 INFO 4868 [egg-security] use dta middleware
+2022-11-07 16:15:43,160 INFO 4868 [egg-security] compose 7 middlewares into one security middleware
+2022-11-07 16:15:43,170 INFO 4868 [egg:core] dump config after load, 5ms
+2022-11-07 16:15:43,181 INFO 4868 [egg-watcher:application] watcher start success
+2022-11-07 16:15:43,191 INFO 4868 [egg:core] dump config after ready, 8ms
+2022-11-07 16:16:26,638 INFO 14168 [egg:logger] init all loggers with options: {"dir":"D:\\senlinDemo\\hackernews\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-11-07 16:16:26,667 INFO 14168 [egg-multipart] stream mode enable
+2022-11-07 16:16:26,822 INFO 14168 [egg-static] starting static serve /public/ -> D:\senlinDemo\hackernews\app\public
+2022-11-07 16:16:26,825 INFO 14168 [egg-security] use csrf middleware
+2022-11-07 16:16:26,826 INFO 14168 [egg-security] use methodnoallow middleware
+2022-11-07 16:16:26,827 INFO 14168 [egg-security] use noopen middleware
+2022-11-07 16:16:26,828 INFO 14168 [egg-security] use nosniff middleware
+2022-11-07 16:16:26,829 INFO 14168 [egg-security] use xssProtection middleware
+2022-11-07 16:16:26,830 INFO 14168 [egg-security] use xframe middleware
+2022-11-07 16:16:26,831 INFO 14168 [egg-security] use dta middleware
+2022-11-07 16:16:26,831 INFO 14168 [egg-security] compose 7 middlewares into one security middleware
+2022-11-07 16:16:26,841 INFO 14168 [egg:core] dump config after load, 5ms
+2022-11-07 16:16:26,854 INFO 14168 [egg-watcher:application] watcher start success
+2022-11-07 16:16:26,864 INFO 14168 [egg:core] dump config after ready, 8ms
+2022-11-07 16:16:35,496 INFO 6464 [egg:logger] init all loggers with options: {"dir":"D:\\senlinDemo\\hackernews\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-11-07 16:16:35,529 INFO 6464 [egg-multipart] stream mode enable
+2022-11-07 16:16:35,713 INFO 6464 [egg-static] starting static serve /public/ -> D:\senlinDemo\hackernews\app\public
+2022-11-07 16:16:35,717 INFO 6464 [egg-security] use csrf middleware
+2022-11-07 16:16:35,718 INFO 6464 [egg-security] use methodnoallow middleware
+2022-11-07 16:16:35,720 INFO 6464 [egg-security] use noopen middleware
+2022-11-07 16:16:35,721 INFO 6464 [egg-security] use nosniff middleware
+2022-11-07 16:16:35,722 INFO 6464 [egg-security] use xssProtection middleware
+2022-11-07 16:16:35,723 INFO 6464 [egg-security] use xframe middleware
+2022-11-07 16:16:35,724 INFO 6464 [egg-security] use dta middleware
+2022-11-07 16:16:35,724 INFO 6464 [egg-security] compose 7 middlewares into one security middleware
+2022-11-07 16:16:35,736 INFO 6464 [egg:core] dump config after load, 6ms
+2022-11-07 16:16:35,749 INFO 6464 [egg-watcher:application] watcher start success
+2022-11-07 16:16:35,756 INFO 6464 [egg:core] dump config after ready, 5ms
+2022-11-07 16:16:42,097 INFO 7636 [egg:logger] init all loggers with options: {"dir":"D:\\senlinDemo\\hackernews\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-11-07 16:16:42,130 INFO 7636 [egg-multipart] stream mode enable
+2022-11-07 16:16:42,291 INFO 7636 [egg-static] starting static serve /public/ -> D:\senlinDemo\hackernews\app\public
+2022-11-07 16:16:42,295 INFO 7636 [egg-security] use csrf middleware
+2022-11-07 16:16:42,297 INFO 7636 [egg-security] use methodnoallow middleware
+2022-11-07 16:16:42,298 INFO 7636 [egg-security] use noopen middleware
+2022-11-07 16:16:42,300 INFO 7636 [egg-security] use nosniff middleware
+2022-11-07 16:16:42,301 INFO 7636 [egg-security] use xssProtection middleware
+2022-11-07 16:16:42,302 INFO 7636 [egg-security] use xframe middleware
+2022-11-07 16:16:42,303 INFO 7636 [egg-security] use dta middleware
+2022-11-07 16:16:42,303 INFO 7636 [egg-security] compose 7 middlewares into one security middleware
+2022-11-07 16:16:42,313 INFO 7636 [egg:core] dump config after load, 4ms
+2022-11-07 16:16:42,328 INFO 7636 [egg-watcher:application] watcher start success
+2022-11-07 16:16:42,336 INFO 7636 [egg:core] dump config after ready, 6ms
+2022-11-07 16:17:17,785 INFO 10520 [egg:logger] init all loggers with options: {"dir":"D:\\senlinDemo\\hackernews\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-11-07 16:17:17,816 INFO 10520 [egg-multipart] stream mode enable
+2022-11-07 16:17:17,976 INFO 10520 [egg-static] starting static serve /public/ -> D:\senlinDemo\hackernews\app\public
+2022-11-07 16:17:17,979 INFO 10520 [egg-security] use csrf middleware
+2022-11-07 16:17:17,980 INFO 10520 [egg-security] use methodnoallow middleware
+2022-11-07 16:17:17,981 INFO 10520 [egg-security] use noopen middleware
+2022-11-07 16:17:17,982 INFO 10520 [egg-security] use nosniff middleware
+2022-11-07 16:17:17,983 INFO 10520 [egg-security] use xssProtection middleware
+2022-11-07 16:17:17,984 INFO 10520 [egg-security] use xframe middleware
+2022-11-07 16:17:17,985 INFO 10520 [egg-security] use dta middleware
+2022-11-07 16:17:17,985 INFO 10520 [egg-security] compose 7 middlewares into one security middleware
+2022-11-07 16:17:17,996 INFO 10520 [egg:core] dump config after load, 5ms
+2022-11-07 16:17:18,009 INFO 10520 [egg-watcher:application] watcher start success
+2022-11-07 16:17:18,017 INFO 10520 [egg:core] dump config after ready, 6ms
+2022-11-07 16:17:30,525 INFO 5928 [egg:logger] init all loggers with options: {"dir":"D:\\senlinDemo\\hackernews\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-11-07 16:17:30,560 INFO 5928 [egg-multipart] stream mode enable
+2022-11-07 16:17:30,739 INFO 5928 [egg-static] starting static serve /public/ -> D:\senlinDemo\hackernews\app\public
+2022-11-07 16:17:30,744 INFO 5928 [egg-security] use csrf middleware
+2022-11-07 16:17:30,746 INFO 5928 [egg-security] use methodnoallow middleware
+2022-11-07 16:17:30,746 INFO 5928 [egg-security] use noopen middleware
+2022-11-07 16:17:30,748 INFO 5928 [egg-security] use nosniff middleware
+2022-11-07 16:17:30,748 INFO 5928 [egg-security] use xssProtection middleware
+2022-11-07 16:17:30,749 INFO 5928 [egg-security] use xframe middleware
+2022-11-07 16:17:30,750 INFO 5928 [egg-security] use dta middleware
+2022-11-07 16:17:30,750 INFO 5928 [egg-security] compose 7 middlewares into one security middleware
+2022-11-07 16:17:30,763 INFO 5928 [egg:core] dump config after load, 5ms
+2022-11-07 16:17:30,776 INFO 5928 [egg-watcher:application] watcher start success
+2022-11-07 16:17:30,786 INFO 5928 [egg:core] dump config after ready, 8ms
+2022-11-07 16:32:50,648 INFO 13152 [egg:logger] init all loggers with options: {"dir":"D:\\senlinDemo\\hackernews\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-11-07 16:32:50,679 INFO 13152 [egg-multipart] stream mode enable
+2022-11-07 16:32:50,849 INFO 13152 [egg-static] starting static serve /public/ -> D:\senlinDemo\hackernews\app\public
+2022-11-07 16:32:50,853 INFO 13152 [egg-security] use csrf middleware
+2022-11-07 16:32:50,854 INFO 13152 [egg-security] use methodnoallow middleware
+2022-11-07 16:32:50,855 INFO 13152 [egg-security] use noopen middleware
+2022-11-07 16:32:50,856 INFO 13152 [egg-security] use nosniff middleware
+2022-11-07 16:32:50,857 INFO 13152 [egg-security] use xssProtection middleware
+2022-11-07 16:32:50,858 INFO 13152 [egg-security] use xframe middleware
+2022-11-07 16:32:50,859 INFO 13152 [egg-security] use dta middleware
+2022-11-07 16:32:50,859 INFO 13152 [egg-security] compose 7 middlewares into one security middleware
+2022-11-07 16:32:50,870 INFO 13152 [egg:core] dump config after load, 5ms
+2022-11-07 16:32:50,882 INFO 13152 [egg-watcher:application] watcher start success
+2022-11-07 16:32:50,890 INFO 13152 [egg:core] dump config after ready, 6ms
+2022-11-07 16:32:57,147 INFO 15400 [egg:logger] init all loggers with options: {"dir":"D:\\senlinDemo\\hackernews\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-11-07 16:32:57,176 INFO 15400 [egg-multipart] stream mode enable
+2022-11-07 16:32:57,333 INFO 15400 [egg-static] starting static serve /public/ -> D:\senlinDemo\hackernews\app\public
+2022-11-07 16:32:57,337 INFO 15400 [egg-security] use csrf middleware
+2022-11-07 16:32:57,338 INFO 15400 [egg-security] use methodnoallow middleware
+2022-11-07 16:32:57,339 INFO 15400 [egg-security] use noopen middleware
+2022-11-07 16:32:57,340 INFO 15400 [egg-security] use nosniff middleware
+2022-11-07 16:32:57,341 INFO 15400 [egg-security] use xssProtection middleware
+2022-11-07 16:32:57,342 INFO 15400 [egg-security] use xframe middleware
+2022-11-07 16:32:57,342 INFO 15400 [egg-security] use dta middleware
+2022-11-07 16:32:57,342 INFO 15400 [egg-security] compose 7 middlewares into one security middleware
+2022-11-07 16:32:57,353 INFO 15400 [egg:core] dump config after load, 5ms
+2022-11-07 16:32:57,365 INFO 15400 [egg-watcher:application] watcher start success
+2022-11-07 16:32:57,373 INFO 15400 [egg:core] dump config after ready, 6ms
+2022-11-07 16:33:59,427 INFO 492 [egg:logger] init all loggers with options: {"dir":"D:\\senlinDemo\\hackernews\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-11-07 16:33:59,459 INFO 492 [egg-multipart] stream mode enable
+2022-11-07 16:33:59,626 INFO 492 [egg-static] starting static serve /public/ -> D:\senlinDemo\hackernews\app\public
+2022-11-07 16:33:59,630 INFO 492 [egg-security] use csrf middleware
+2022-11-07 16:33:59,632 INFO 492 [egg-security] use methodnoallow middleware
+2022-11-07 16:33:59,633 INFO 492 [egg-security] use noopen middleware
+2022-11-07 16:33:59,635 INFO 492 [egg-security] use nosniff middleware
+2022-11-07 16:33:59,636 INFO 492 [egg-security] use xssProtection middleware
+2022-11-07 16:33:59,637 INFO 492 [egg-security] use xframe middleware
+2022-11-07 16:33:59,637 INFO 492 [egg-security] use dta middleware
+2022-11-07 16:33:59,638 INFO 492 [egg-security] compose 7 middlewares into one security middleware
+2022-11-07 16:33:59,650 INFO 492 [egg:core] dump config after load, 6ms
+2022-11-07 16:33:59,665 INFO 492 [egg-watcher:application] watcher start success
+2022-11-07 16:33:59,674 INFO 492 [egg:core] dump config after ready, 6ms
+2022-11-07 16:34:48,009 INFO 15984 [egg:logger] init all loggers with options: {"dir":"D:\\senlinDemo\\hackernews\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-11-07 16:34:48,041 INFO 15984 [egg-multipart] stream mode enable
+2022-11-07 16:34:48,201 INFO 15984 [egg-static] starting static serve /public/ -> D:\senlinDemo\hackernews\app\public
+2022-11-07 16:34:48,204 INFO 15984 [egg-security] use csrf middleware
+2022-11-07 16:34:48,206 INFO 15984 [egg-security] use methodnoallow middleware
+2022-11-07 16:34:48,207 INFO 15984 [egg-security] use noopen middleware
+2022-11-07 16:34:48,208 INFO 15984 [egg-security] use nosniff middleware
+2022-11-07 16:34:48,209 INFO 15984 [egg-security] use xssProtection middleware
+2022-11-07 16:34:48,210 INFO 15984 [egg-security] use xframe middleware
+2022-11-07 16:34:48,211 INFO 15984 [egg-security] use dta middleware
+2022-11-07 16:34:48,211 INFO 15984 [egg-security] compose 7 middlewares into one security middleware
+2022-11-07 16:34:48,221 INFO 15984 [egg:core] dump config after load, 5ms
+2022-11-07 16:34:48,234 INFO 15984 [egg-watcher:application] watcher start success
+2022-11-07 16:34:48,244 INFO 15984 [egg:core] dump config after ready, 9ms
+2022-11-07 17:43:38,401 INFO 12960 [egg:logger] init all loggers with options: {"dir":"D:\\senlinDemo\\hackernews\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-11-07 17:43:38,505 INFO 12960 [egg-multipart] stream mode enable
+2022-11-07 17:43:39,529 INFO 12960 [egg-static] starting static serve /public/ -> D:\senlinDemo\hackernews\app\public
+2022-11-07 17:43:39,548 INFO 12960 [egg-security] use csrf middleware
+2022-11-07 17:43:39,565 INFO 12960 [egg-security] use methodnoallow middleware
+2022-11-07 17:43:39,579 INFO 12960 [egg-security] use noopen middleware
+2022-11-07 17:43:39,598 INFO 12960 [egg-security] use nosniff middleware
+2022-11-07 17:43:39,614 INFO 12960 [egg-security] use xssProtection middleware
+2022-11-07 17:43:39,629 INFO 12960 [egg-security] use xframe middleware
+2022-11-07 17:43:39,640 INFO 12960 [egg-security] use dta middleware
+2022-11-07 17:43:39,641 INFO 12960 [egg-security] compose 7 middlewares into one security middleware
+2022-11-07 17:43:39,675 INFO 12960 [egg:core] dump config after load, 6ms
+2022-11-07 17:43:39,689 INFO 12960 [egg-watcher:application] watcher start success
+2022-11-07 17:43:39,696 INFO 12960 [egg:core] dump config after ready, 5ms
