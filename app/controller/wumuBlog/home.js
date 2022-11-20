@@ -4,44 +4,35 @@ const Controller = require('egg').Controller;
 
 class NewsController extends Controller {
   async homePage() {
-    const { ctx } = this;
+    const { ctx, app } = this;
+    const sql = `select * from article`
+    const articles = await app.mysql.query(sql);
+    console.log('articles', articles)
+    debugger
     const data = Array.from(new Array(12)).map((_val, i) => ({
       name: `name${i}`,
       id: i,
     }));
     ctx.body = {
-      data,
+      data: articles,
       success: true,
       message: '加载成功'
     };
-  }
-
-  async list() {
+  };
+  async home() {
     const { ctx, app } = this;
-    const pageSize = app.config.news.pageSize;
-    const page = parseInt(ctx.query.page) || 1;
+    const sql = `select * from article`;
+    const values = {
+      limit: 10,
+      orders: [['create_time', 'desc']],
+    }
+    const lastTenArticles = await app.mysql.select('article', values);
 
-    const idList = await ctx.service.hackerNews.getTopStories(page);
-
-    // get itemInfo parallel
-    const newsList = await Promise.all(idList.map(id => ctx.service.hackerNews.getItem(id)));
-    await ctx.render('news/list.tpl', { list: newsList, page, pageSize });
-  }
-
-  async detail() {
-    const { ctx } = this;
-    const id = ctx.params.id;
-    const newsInfo = await ctx.service.hackerNews.getItem(id);
-    // get comment parallel
-    const commentList = await Promise.all(newsInfo.kids.map(id => ctx.service.hackerNews.getItem(id)));
-    await ctx.render('news/detail.tpl', { item: newsInfo, comments: commentList });
-  }
-
-  async user() {
-    const { ctx } = this;
-    const id = ctx.params.id;
-    const userInfo = await ctx.service.hackerNews.getUser(id);
-    await ctx.render('news/user.tpl', { user: userInfo });
+    ctx.body = {
+      data: lastTenArticles,
+      success: true,
+      message: '加载成功'
+    };
   }
 }
 
