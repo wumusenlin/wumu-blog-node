@@ -18,13 +18,6 @@ module.exports = appInfo => {
     serverUrl: 'https://hacker-news.firebaseio.com/v0',
   };
 
-  config.view = {
-    defaultViewEngine: 'nunjucks',
-    mapping: {
-      '.tpl': 'nunjucks',
-      '.nj': 'nunjucks',
-    },
-  };
   config.mysql = {
     // 单数据库信息配置
     client: {

@@ -8,7 +8,6 @@ class NewsController extends Controller {
     const sql = `select * from article`
     const articles = await app.mysql.query(sql);
     console.log('articles', articles)
-    debugger
     const data = Array.from(new Array(12)).map((_val, i) => ({
       name: `name${i}`,
       id: i,
@@ -21,7 +20,6 @@ class NewsController extends Controller {
   };
   async home() {
     const { ctx, app } = this;
-    const sql = `select * from article`;
     const values = {
       limit: 10,
       orders: [['create_time', 'desc']],
