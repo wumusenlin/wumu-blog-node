@@ -74,18 +74,12 @@ class Article extends Service {
       return false
     }
     try {
-
-
-      // 插入
-      // const result = await this.ctx.app.mysql.insert(this.tableName, values); // 在article 表中，插入 title 为[text] 的记录
       const articleResult = await this.ctx.app.mysql.insert('article', values); // 在 post 表中，插入 title 为 Hello World 的记录
-      console.log('articleResult', articleResult)
       const { insertId, message, affectedRows } = articleResult;
       const insertSuccess = affectedRows === 1;
       if (insertSuccess) {
         const newArticleDetailValues = { ...articleDetailValues, article_id: insertId }
         const articleDetailResult = await this.ctx.app.mysql.insert('article_detail', newArticleDetailValues);
-        console.log('articleDetailResult', articleDetailResult)
         const hereInsertSuccess = articleDetailResult.affectedRows === 1;
         return {
           data: { insertId: articleDetailResult.insertId },
@@ -99,7 +93,7 @@ class Article extends Service {
         message: message
       }
     } catch (error) {
-      console.log('error', error)
+      console.error('error', error)
       return {
         success: false,
         message: '插入失败'
@@ -119,7 +113,7 @@ class Article extends Service {
         message: '获取数据成功',
       }
     } catch (e) {
-      console.log('e', e)
+      console.error('e', e)
       return {
         success: false,
         message: '获取数据失败',

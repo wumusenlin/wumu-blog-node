@@ -7,11 +7,6 @@ class NewsController extends Controller {
     const { ctx, app } = this;
     const sql = `select * from article`
     const articles = await app.mysql.query(sql);
-    console.log('articles', articles)
-    const data = Array.from(new Array(12)).map((_val, i) => ({
-      name: `name${i}`,
-      id: i,
-    }));
     ctx.body = {
       data: articles,
       success: true,
