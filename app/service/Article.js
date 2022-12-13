@@ -102,12 +102,17 @@ class Article extends Service {
   }
 
   async getDetail(id) {
+    const article_id = id
     try {
-      const article = await this.ctx.app.mysql.get('article', { article_id: id });
-      const article_detail = await this.ctx.app.mysql.get('article_detail', { article_id: id });
+      const article = await this.ctx.app.mysql.get('article', { article_id });
+      const { read_count } = article
+      const new_read_count = read_count + 1
+      this.ctx.app.mysql.update('article', { read_count: new_read_count }, { where: { article_id } });
+      const article_detail = await this.ctx.app.mysql.get('article_detail', { article_id });
       return {
         data: {
           ...article,
+          read_count: new_read_count,
           ...article_detail,
         },
         message: '获取数据成功',
