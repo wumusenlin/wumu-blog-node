@@ -69,6 +69,7 @@ class Article extends Service {
   }
 
 
+  // 新增article
   async post(values = {}, articleDetailValues) {
     if (JSON.stringify(values) === '{}') {
       return false

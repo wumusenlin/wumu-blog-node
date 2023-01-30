@@ -45,6 +45,7 @@ class NewsController extends Controller {
     const articleDetailValues = {
       content_html: html,
     }
+    // 新增article
     const res = await ctx.service.article.post(articleValues, articleDetailValues)
 
     ctx.body = res;
