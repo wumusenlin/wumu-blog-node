@@ -102,6 +102,7 @@ class Article extends Service {
     }
   }
 
+  //获取文章详情页数据
   async getDetail(id) {
     const article_id = id
     try {
@@ -124,6 +125,21 @@ class Article extends Service {
         success: false,
         message: '获取数据失败',
       }
+    }
+  }
+
+  //获取最新的十条数据
+  async getLastTenList(){
+    try {
+      const values = {
+        limit: 10,
+        orders: [['create_time', 'desc']],
+      }
+      const lastTenArticles = await this.ctx.app.mysql.select(this.tableName, values);
+      return lastTenArticles
+    } catch (e) {
+      console.error('e', e)
+      return []
     }
   }
 }
