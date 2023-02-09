@@ -2,7 +2,7 @@
 
 const Controller = require('egg').Controller;
 
-class NewsController extends Controller {
+class HomeController extends Controller {
   async home() {
     const { ctx, app } = this;
     const lastTenArticles = await ctx.service.article.getLastTenList();
@@ -16,4 +16,4 @@ class NewsController extends Controller {
   }
 }
 
-module.exports = NewsController;
+module.exports = HomeController;
