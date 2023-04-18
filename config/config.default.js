@@ -8,7 +8,9 @@ module.exports = appInfo => {
 
   // should change to your own
   config.keys = appInfo.name + '123456';
-
+  config.multipart = {
+    mode: 'file',
+  }
   config.siteFile = {
     '/favicon.ico': fs.readFileSync(path.join(appInfo.baseDir, 'app/public/favicon.png')),
   };
@@ -41,7 +43,7 @@ module.exports = appInfo => {
     csrf: {
       enable: false,
     },
-    domainWhiteList: [ '*' ],//允许访问接口的白名单，例如：http://localhost:8080 *表示均可访问
+    domainWhiteList: ['*'],//允许访问接口的白名单，例如：http://localhost:8080 *表示均可访问
   };
 
   config.cors = {
