@@ -21,6 +21,7 @@ class uploadController extends Controller {
           errno: 0,
           data: {
             url: fileName,
+            url:'https://s1.ax1x.com/2023/03/24/pp048Qx.png',
             alt: file.filename,
           }
         }
